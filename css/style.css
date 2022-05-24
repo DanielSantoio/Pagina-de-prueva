@@ -121,11 +121,6 @@ section {
 	background-size: cover;
 }
 
-#header {
-	/* height: 98px; */
-}
-
-
 /* ===== Begin text colors ===== */
 .text-main { color: #383b42; } /* Theme main color */
 .text-white { color: #FFF; }
@@ -157,7 +152,7 @@ section {
 	height: auto;
 	padding: 24px 0;
 	text-indent: -99999px;
-	font-size: 24px;
+	font-size: 25px;
 	font-weight: 600;
 	line-height: 20px;
 	letter-spacing: 4px;
@@ -236,8 +231,7 @@ section {
 .navbar-shrink .navbar-brand {
 	font-size: 20px;
 }
-.navbar-default.navbar-fixed-top.navbar-shrink .container {
-}
+
 .navbar-fixed-top.navbar-shrink .container {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
@@ -320,7 +314,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	margin-bottom: 15px;
 	margin-right: 25px;
 	margin-top: 10px;
-	float:left;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -418,8 +411,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 
 
 /* ===== Begin progress bar ===== */
-.skill-bar {
-}
 .progress {
 	overflow: visible;
 	height: 25px;
@@ -504,10 +495,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 
 
 /* ===== Begin Portfolio===== */
-.portfolio_area{}
-.portfolio{}
-.portfoloi_top{}
-.portfoloi_content_area{}
 .portfolio_menu{
 	text-align: center;
 	overflow: hidden;
@@ -530,7 +517,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     text-decoration: none;
     text-transform: uppercase;
 }
-.portfolio_content{}
 .portfolio_single_content{
 	position: relative;
 	top: 0;
@@ -614,7 +600,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	padding: 0;
 	text-transform: uppercase;
 }
-.portfolio_content{}
 .portfolio_content{
     margin-top: 36px;
     overflow: hidden;
@@ -630,8 +615,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 .counter-up .cover {
 	background-color: rgba(33, 194, 113, 0.281); /*Color fondo datos relebantaes*/
-}
-.counter-up .fact {
 }
 .counter-up .fact.last {
 	border-right: none;
@@ -731,11 +714,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 /* ===== End partners ===== */
 
-
-/* ===== Begin panels ===== */
-.panel, .panel-heading, .panel-footer  {
-}
-/* ===== End panels ===== */
 
 /* ===== Begin prices ===== */
 .prices .panel {
